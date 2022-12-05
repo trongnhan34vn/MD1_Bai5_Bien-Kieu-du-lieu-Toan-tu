@@ -1,0 +1,28 @@
+.app {
+    width: 400px;
+    margin: auto;
+}
+
+.app h1 {
+    text-align: center;
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-area p {
+    margin: 0;
+}
+
+.submit-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-area button {
+    display: block;
+    margin: 20px 0;
+}

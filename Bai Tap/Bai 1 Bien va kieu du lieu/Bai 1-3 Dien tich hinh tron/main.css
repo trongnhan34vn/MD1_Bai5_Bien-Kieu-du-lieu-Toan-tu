@@ -1,0 +1,41 @@
+.app {
+    width: 500px;
+    margin: auto;
+}
+
+.app h1 {
+    text-align:  center;
+}
+
+.input-box p {
+    display: inline-block;
+    margin: 0;
+}
+
+.input-box {
+    margin-right: 30px;
+    margin-bottom: 20px ;
+    margin-top: 2px;
+}
+
+.result-box {
+    display: inline-block;
+}
+
+.submit-box {
+    margin-left: 62px;
+}
+
+.result-box h3 {
+    margin: 0;
+}
+
+.result-box span {
+    color: red;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

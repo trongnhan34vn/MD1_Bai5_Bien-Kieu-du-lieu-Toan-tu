@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="myJS.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="app">
+  <h2 class="title">Chuyển đổi tiền tệ</h2>
+  <div class="input-area">
+    <div class="input-area__box">
+      <p>Amount</p>
+      <input id="amount" type="text">
+    </div>
+    <div class="input-area__box">
+      <p>From Currency</p>
+      <select name="currency" id="from">
+        <option value="vnd">VND</option>
+        <option value="usd">USD</option>
+      </select>
+    </div>
+    <div class="input-area__box">
+      <p>To Currency</p>
+      <select name="currency" id="to">
+        <option value="usd">USD</option>
+        <option value="vnd">VND</option>
+      </select>
+    </div>
+    <div class="submit-box">
+      <button onclick="exchangeCurrency()">convert</button>
+    </div>
+  </div>
+  <p id="result"></p>
+</div>
+</body>
+</html>

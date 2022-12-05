@@ -1,0 +1,45 @@
+.input-area {
+    display: flex;
+    justify-content: center;
+}
+
+.input-area p {
+    margin: 0 0 8px 0;
+}
+
+.input-area__box {
+    margin-right: 50px;
+}
+
+.input-area__box select {
+    width: 90px;
+}
+
+.app {
+    text-align: center;
+}
+
+.submit-box {
+    display: flex;
+    align-items: flex-end;
+}
+
+.app p:last-child {
+    color: blue;
+}
+
+.submit-box button {
+    background-color: #8F82CF;
+    border-radius: 2px;
+    border: 0;
+    height: 20px;
+    cursor: pointer;
+    color: #fff
+}
+
+.submit-box button:hover {
+    opacity: 0.9;
+}
+
+
+

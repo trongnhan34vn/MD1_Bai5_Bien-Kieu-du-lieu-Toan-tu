@@ -1,0 +1,32 @@
+.app {
+    width: 500px;
+    margin: auto;
+}
+
+.app h1 {
+    text-align: center;
+}
+
+.input-box {
+    display: flex;
+    justify-content: center;
+}
+
+.input-area h3 {
+    display: inline-block;
+}
+
+.input-area span {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-area {
+    margin-right: 30px;
+}
+
+.app button {
+    display: block;
+    mar
+}
