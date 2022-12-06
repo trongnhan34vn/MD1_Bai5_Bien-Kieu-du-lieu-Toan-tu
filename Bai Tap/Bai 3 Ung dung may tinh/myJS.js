@@ -31,7 +31,7 @@ function result() {
         let thuong = num1 / num2;
         document.getElementById('result').value = thuong;
     }
- }
+}
 
 
 

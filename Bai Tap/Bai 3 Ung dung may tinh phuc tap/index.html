@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="myJS.js"></script>
+</head>
+<body>
+<div class="app">
+    <div class="result">
+        <input id="screen" value="" type="text">
+    </div>
+    <div class="keyboard">
+        <div class="row">
+            <button onclick="" id="btn-0">0</button>
+            <button>,</button>
+            <button onclick="result()" class="function">=</button>
+        </div>
+        <div class="row">
+            <button onclick="onScreen('1')" id="btn-1">1</button>
+            <button onclick="onScreen('2')" id="btn-2">2</button>
+            <button onclick="onScreen('3')" id="btn-3">3</button>
+            <button onclick="onScreen('+')" class="function">+</button>
+        </div>
+        <div class="row">
+            <button onclick="onScreen('4')" id="btn-4">4</button>
+            <button onclick="onScreen('5')" id="btn-5">5</button>
+            <button onclick="onScreen('6')" id="btn-6">6</button>
+            <button onclick="onScreen('-')" class="function">-</button>
+        </div>
+        <div class="row">
+            <button onclick="onScreen('7')" id="btn-7">7</button>
+            <button onclick="onScreen('8')" id="btn-8">8</button>
+            <button onclick="onScreen('9')" id="btn-9">9</button>
+            <button onclick="onScreen('*')" class="function">x</button>
+        </div>
+        <div class="row">
+            <button class="special-btn" onclick="clearScreen()">AC</button>
+            <button class="special-btn">+/-</button>
+            <button class="special-btn">%</button>
+            <button onclick="onScreen('/')" class="function">:</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

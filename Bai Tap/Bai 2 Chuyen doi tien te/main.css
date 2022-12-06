@@ -26,6 +26,7 @@
 
 .app p:last-child {
     color: blue;
+    text-transform: uppercase;
 }
 
 .submit-box button {
